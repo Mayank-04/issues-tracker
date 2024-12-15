@@ -40,7 +40,7 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={inter.variable}
       >
-        <Theme accentColor="yellow" radius="large" scaling="110%">
+        <Theme appearance="dark" accentColor="yellow" radius="large" scaling="110%">
         <Navbar />
         <main className="p-5">{children}</main>
         <ThemePanel />
